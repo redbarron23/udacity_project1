@@ -4,7 +4,10 @@
 
   What is it?
   -----------
-  Create a favourite movie portal with synopsis, video trailer and trailer photo
+  Create a favourite movie portal with synopsis, video trailer and poster photo
+  media.py is the main class for this
+  entertainment.py contains all the instance
+  fresh_tomatoes.py creates the dynamic content
 
   Installation
   ------------
