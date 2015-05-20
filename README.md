@@ -6,6 +6,18 @@
   -----------
   Create a favourite movie portal with synopsis, video trailer and trailer photo
 
+  Installation
+  ------------
+  requires python 2.75 or greater
+  also requires webbrowser module
+  https://docs.python.org/2/library/webbrowser.html
+
+  Usage
+  ------------------
+  git clone git@github.com:redbarron23/udacity_project1.git
+  cd udacity_project1
+  python ./entertainment_center.py
+
 
   The Latest Version
   ------------------
@@ -17,18 +29,9 @@
   please feel free to contribute
 
 
-  Installation
-  ------------
-  requires python 2.75 or greater
-  also requires webbrowser module
-  https://docs.python.org/2/library/webbrowser.html
-
-
   Licensing
   ---------
   The is open source
-
-
 
   Contacts
   --------

@@ -1,14 +1,14 @@
 import media
 import fresh_tomatoes
 
-dr_strangeLove = media.Movie("Dr. Strangelove or: How I Learned to Stop "
-                             "Worrying and Love the Bomb",
+# instantiating new movies based on parameters from media class
+
+dr_strangeLove = media.Movie("Dr. Strangelove or: How I Learned to Stop \
+                              Worrying and Love the Bomb",
                              "The story concerns an unhinged United States \
                               Air Force general who orders a first strike \
-                              nuclear attack on "the Soviet Union.",
-                              # how to deal w/ long urls
-                             "http://upload.wikimedia.org/wikipedia/commons/b/"
-                             "bb/Dr._Strangelove.png",
+                              nuclear attack on the Soviet Union.",
+                             "http://upload.wikimedia.org/wikipedia/commons/b/bb/Dr._Strangelove.png",
                              "https://youtu.be/1gXY3kuDvSU")
 
 godfather_2 = media.Movie("The Godfather Part_II",
@@ -17,7 +17,9 @@ godfather_2 = media.Movie("The Godfather Part_II",
                           "https://www.youtube.com/watch?v=wPmTp9up26w")
 
 the_hours = media.Movie("The Hours",
-                        "The plot focuses on three women of different generations whose lives are interconnected by the novel Mrs Dalloway by Virginia Woolf.",
+                        "The plot focuses on three women of different \
+                        generations whose lives are interconnected by the \
+                        novel Mrs Dalloway by Virginia Woolf.",
                         "http://upload.wikimedia.org/wikipedia/en/e/e6/The_Hours_poster.jpg",
                         "https://www.youtube.com/watch?v=gbc7jtmuOJM")
 
@@ -41,8 +43,9 @@ schindlers_list = media.Movie("Schindler's List",
                                Polish-Jewish refugees during the Holocaust by \
                                employing them in his factories",
                               "http://upload.wikimedia.org/wikipedia/en/3/38/Schindler%27s_List_movie.jpg",
-                              "https://www.youtube.com/watch?v=dwfIf1WMhgc"
+                              "https://www.youtube.com/watch?v=dwfIf1WMhgc")
 
 movies = [godfather_2, the_hours, citizen_kane, midnight_in_paris,
           schindlers_list, dr_strangeLove]
+
 fresh_tomatoes.open_movies_page(movies)
